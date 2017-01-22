@@ -2,17 +2,15 @@ body {
 	background-color: #cccccc;	
 }
 
-#nav {
-	margin-top: 30px;
-}
+
+
+/* LINKS & BUTTONS */
+
 
 a.link {
-	color: #333;
 	background-image: linear-gradient(rgba(255,255,255,.75),rgba(255,255,255,.75));
 	background-position: 0 1.3em;
   background-repeat: repeat-x;
-  
-	
 }
 	p a.link,
 	h2 a.link,
@@ -25,8 +23,6 @@ a.link {
 	h2.subtle a.link {
 		background-size: 2px 3px;
 	}
-	
-	
 	p a.link:hover,
 	h2 a.link:hover,
 	h2.subtle a.link:hover,
@@ -37,20 +33,56 @@ a.link {
 		background-image: linear-gradient(rgba(255,255,255,1),rgba(255,255,255,1));
 	}
 
+
+a.btn {
+	display: inline-block;
+	padding: .5em .4em .4em;
+	line-height: 1;
+	border: 2px solid rgba(255,255,255,0.75);
+
+	
+}
+a.btn:hover {
+	color: #000;
+	border: 2px solid rgba(255,255,255,1)
+}
+.btn-group .btn {
+	float: left;
+	margin-right: -2px;
+}
+
+
+/* NAV */
+#nav a.btn {
+	
+}
+
+
+/* PARTS */
+
 .part {
 	margin-top: 4rem;
+	margin-bottom: 4rem;
+}
+.part#nav {
+	margin-top: 2rem;
 }
 /* Medium and up */
 @media screen and (min-width: 40em) {
 	.part {
 		margin-top: 5rem;
+		margin-bottom: 5rem;
+	}
+	.part#nav {
+		margin-top: 2.5rem;
 	}
 }
 
 
 /* FONTS */
 
-p {
+ 
+a, p {
 	font-family: 'Eczar', serif;
 	font-weight: 400;
 	color: #333;
@@ -69,7 +101,9 @@ h1, h2, h3, h4 {
 h1.subtle, h2.subtle, h3.subtle, h4.subtle {
 	font-weight: 400;
 }
-p, h4 { font-size: 19px; } 
+a.btn,
+p,
+h4 		{ font-size: 19px; } 
 h3 		{ font-size: 23px; }
 h2 		{ font-size: 28px; }
 h1 		{ font-size: 34px; }
@@ -78,7 +112,9 @@ h2.h-after-h { margin-top: 17px; }
 
 /* Medium and up */
 @media screen and (min-width: 40em) {
-	p, h4 { font-size: 22px; } 
+	a.btn,
+	p, 
+	h4 		{ font-size: 22px; } 
 	h3 		{ font-size: 29px; }
 	h2 		{ font-size: 38px; }
 	h1 		{ font-size: 49px; }
