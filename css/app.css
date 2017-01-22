@@ -9,7 +9,6 @@ body {
 a.link {
 	color: #222;
 	display: inline-block;
-	
 }
 	p a.link {
 		line-height: 1.3rem;
@@ -23,7 +22,12 @@ a.link {
 .part {
 	margin-top: 3rem;
 }
-
+/* Medium and up */
+@media screen and (min-width: 40em) {
+	.part {
+		margin-top: 4rem;
+	}
+}
 
 
 /* FONTS */
@@ -33,10 +37,13 @@ p {
 	font-weight: 400;
 	color: #222;
 }
-h1, h2, h3, h4, h5, h6, h7 {
+h1, h2, h3, h4 {
 	font-family: 'Eczar', serif;
-	font-weight: 500;
+	font-weight: 600;
 	color: #222;
+}
+h1.subtle, h2.subtle, h3.subtle, h4.subtle {
+	font-weight: 400;
 }
 p  { font-size: 16px; }
 h4 { font-size: 19px; } 
