@@ -8,7 +8,10 @@ body {
 
 a.link {
 	color: #333;
-	display: inline-block;
+	background-image: linear-gradient(rgba(255,255,255,.75),rgba(255,255,255,.75));
+	background-position: 0 1.3em;
+  background-repeat: repeat-x;
+  
 	
 }
 	p a.link,
@@ -16,14 +19,11 @@ a.link {
 	h2.subtle a.link,
 	h3 a.link,
 	h3.subtle a.link {
-		line-height: .9;
-		border-bottom-width: 2px;
-		border-bottom-style: solid;
-		border-bottom-color: rgba(255,255,255,.75);
+		background-size: 2px 2px;
 	}
 	h2 a.link,
 	h2.subtle a.link {
-		border-bottom-width: 3px;
+		background-size: 2px 3px;
 	}
 	
 	
@@ -33,7 +33,8 @@ a.link {
 	h3 a.link:hover,
 	h3.subtle a.link:hover {
 		color: #000;
-		border-bottom-color: rgba(255,255,255,1);
+		//border-bottom-color: rgba(255,255,255,1);
+		background-image: linear-gradient(rgba(255,255,255,1),rgba(255,255,255,1));
 	}
 
 .part {
