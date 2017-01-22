@@ -11,8 +11,14 @@ a.link {
 	background-image: linear-gradient(rgba(255,255,255,.75),rgba(255,255,255,.75));
 	background-position: 0 1.3em;
   background-repeat: repeat-x;
+	line-height: 1;
 }
-	p a.link,
+a.link.active {
+	font-weight: 600;
+	background-size: 2px 4px;
+
+}
+	a.link,
 	h2 a.link,
 	h2.subtle a.link,
 	h3 a.link,
@@ -23,7 +29,7 @@ a.link {
 	h2.subtle a.link {
 		background-size: 2px 3px;
 	}
-	p a.link:hover,
+	a.link:hover,
 	h2 a.link:hover,
 	h2.subtle a.link:hover,
 	h3 a.link:hover,
@@ -38,9 +44,7 @@ a.btn {
 	display: inline-block;
 	padding: .5em .4em .4em;
 	line-height: 1;
-	border: 2px solid rgba(255,255,255,0.75);
-
-	
+	border: 2px solid rgba(255,255,255,0.75);	
 }
 a.btn:hover {
 	color: #000;
@@ -51,11 +55,6 @@ a.btn:hover {
 	margin-right: -2px;
 }
 
-
-/* NAV */
-#nav a.btn {
-	
-}
 
 
 /* PARTS */
@@ -101,6 +100,7 @@ h1, h2, h3, h4 {
 h1.subtle, h2.subtle, h3.subtle, h4.subtle {
 	font-weight: 400;
 }
+#nav a.link,
 a.btn,
 p,
 h4 		{ font-size: 19px; } 
@@ -112,6 +112,7 @@ h2.h-after-h { margin-top: 17px; }
 
 /* Medium and up */
 @media screen and (min-width: 40em) {
+	#nav a.link,
 	a.btn,
 	p, 
 	h4 		{ font-size: 22px; } 
