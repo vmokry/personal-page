@@ -6,14 +6,23 @@ body {
 	margin-top: 30px;
 }
 
+a.link {
+	color: #222;
+	display: inline-block;
+	
+}
+	p a.link {
+		line-height: 1.3rem;
+		border-bottom: 3px solid white;
+	}
+	h2 a.link {
+		line-height: 2rem;
+		border-bottom: 4px solid white;
+	}
 
-
-
-
-
-
-
-
+.part {
+	margin-top: 3rem;
+}
 
 
 
@@ -35,6 +44,19 @@ h3 { font-size: 23px; }
 h2 { font-size: 28px; }
 h1 { font-size: 34px; }
 
+/* Medium and up */
+@media screen and (min-width: 40em) {
+	p  { font-size: 18px; }
+	h4 { font-size: 22px; } 
+	h3 { font-size: 29px; }
+	h2 { font-size: 38px; }
+	h1 { font-size: 49px; }
+}
+
+
+
+
+
 
 
 
@@ -43,11 +65,7 @@ h1 { font-size: 34px; }
 
 /* Medium and up */
 @media screen and (min-width: 40em) {
-	p  { font-size: 18px; }
-	h4 { font-size: 22px; } 
-	h3 { font-size: 29px; }
-	h2 { font-size: 38px; }
-	h1 { font-size: 49px; }
+
 }
 
 /* Medium only */
