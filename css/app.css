@@ -7,16 +7,26 @@ body {
 }
 
 a.link {
-	color: #222;
+	color: #333;
 	display: inline-block;
 }
 	p a.link {
 		line-height: 1.3rem;
-		border-bottom: 3px solid white;
+		border-bottom: 2px solid rgba(255,255,255,.75);
+	}
+	h2.subtle a.link {
+		line-height: 2rem;
+		border-bottom: 3px solid rgba(255,255,255,.75);
 	}
 	h2 a.link {
 		line-height: 2rem;
-		border-bottom: 4px solid white;
+		border-bottom: 4px solid rgba(255,255,255,.75);
+	}
+	p a.link:hover,
+	h2 a.link:hover,
+	h2.subtle a.link:hover {
+		color: #000;
+		border-bottom-color: rgba(255,255,255,1);
 	}
 
 .part {
@@ -33,19 +43,23 @@ a.link {
 /* FONTS */
 
 p {
-	font-family: 'PT Serif', serif;
+	font-family: 'Eczar', serif;
 	font-weight: 400;
-	color: #222;
+	color: #333;
+}
+em {
+	font-family: 'Neuton', serif;
+	font-size: 1.10em;
 }
 h1, h2, h3, h4 {
 	font-family: 'Eczar', serif;
 	font-weight: 600;
-	color: #222;
+	color: #333;
 }
 h1.subtle, h2.subtle, h3.subtle, h4.subtle {
 	font-weight: 400;
 }
-p  { font-size: 16px; }
+p  { font-size: 19px; }
 h4 { font-size: 19px; } 
 h3 { font-size: 23px; }
 h2 { font-size: 28px; }
@@ -53,7 +67,7 @@ h1 { font-size: 34px; }
 
 /* Medium and up */
 @media screen and (min-width: 40em) {
-	p  { font-size: 18px; }
+	p  { font-size: 22px; }
 	h4 { font-size: 22px; } 
 	h3 { font-size: 29px; }
 	h2 { font-size: 38px; }
