@@ -1,155 +1,97 @@
+/* GENERAL */
 body {
-	background-color: #cccccc;	
+	padding-top: 3em;
+	padding-bottom: 6em;
+	background-color: #efebe1;
 }
+.container {
+	
+}
+ffa200
 
-
-
-/* LINKS & BUTTONS */
-
-
+/* COLORS */
 a.link {
-	background-image: linear-gradient(rgba(255,255,255,.75),rgba(255,255,255,.75));
-	background-position: 0 1.3em;
-  background-repeat: repeat-x;
-	line-height: 1;
+	color: #ffa200; 
 }
-a.link.active {
-	font-weight: 600;
-	background-size: 2px 4px;
-
+a.link {
+	color: #ffa200; 
 }
-	a.link,
-	h2 a.link,
-	h2.subtle a.link,
-	h3 a.link,
-	h3.subtle a.link {
-		background-size: 2px 2px;
-	}
-	h2 a.link,
-	h2.subtle a.link {
-		background-size: 2px 3px;
-	}
-	a.link:hover,
-	h2 a.link:hover,
-	h2.subtle a.link:hover,
-	h3 a.link:hover,
-	h3.subtle a.link:hover {
-		color: #000;
-		//border-bottom-color: rgba(255,255,255,1);
-		background-image: linear-gradient(rgba(255,255,255,1),rgba(255,255,255,1));
-	}
-
-
+/* FONTS */
+.small-caps {	}
+h2.has-top-margin {margin-top: 2em;}
+ 
+a, a.btn, p, h1, h2, h3, h4 { 
+	font-family: 'Roboto Condensed', sans-serif;	
+}
+a, p, h1, h2, h3, h4 { 
+	color: rgba(0,0,0,.7);
+}
+p, a.btn { line-height: 1.2; }
 a.btn {
 	display: inline-block;
-	padding: .5em .4em .4em;
-	line-height: 1;
-	border: 2px solid rgba(255,255,255,0.75);	
+	position: relative;
+	top: 0;
+	font-weight: 500;
+	padding: 0.5em .7em;
+	color: #ffa200; 
+	background-color: white;
+	border-radius: 4px;
+	box-shadow: 0px 2px 1px rgba(0,0,0,.1);
+	transition: all 0.1s ease;
 }
 a.btn:hover {
-	color: #000;
-	border: 2px solid rgba(255,255,255,1)
+	position: relative;
+	top: -1px;
+	box-shadow: 0px 3px 2px rgba(0,0,0,.1);
+	transition: all 0.15s ease;
+	color: black;
 }
-.btn-group .btn {
-	float: left;
-	margin-right: -2px;
-}
+h1, h2, h3, h4 { font-weight: 700; }
+h1.subtle, h2.subtle, h3.subtle, h4.subtle { font-weight: 400; }
 
-
-
-/* PARTS */
-
-.part {
-	margin-top: 4rem;
-	margin-bottom: 4rem;
-}
-.part#nav {
-	margin-top: 2rem;
-}
-/* Medium and up */
-@media screen and (min-width: 40em) {
-	.part {
-		margin-top: 5rem;
-		margin-bottom: 5rem;
-	}
-	.part#nav {
-		margin-top: 2.5rem;
-	}
-}
-
-
-/* FONTS */
-
- 
-a, p {
-	font-family: 'Eczar', serif;
-	font-weight: 400;
-	color: #333;
-	margin-bottom: 10px;
-}
-em {
-	font-family: 'Neuton', serif;
-	font-size: 1.10em;
-}
-h1, h2, h3, h4 {
-	font-family: 'Eczar', serif;
-	font-weight: 600;
-	color: #333;
-	margin-bottom: 10px;
-}
-h1.subtle, h2.subtle, h3.subtle, h4.subtle {
-	font-weight: 400;
-}
-#nav a.link,
-a.btn,
-p,
-h4 		{ font-size: 19px; } 
-h3 		{ font-size: 23px; }
-h2 		{ font-size: 28px; }
-h1 		{ font-size: 34px; }
-
-h2.h-after-h { margin-top: 17px; }
+#nav a.link, a.btn, p,
+h4 		{ font-size: 16px; } 
+h3 		{ font-size: 20px; }
+h2 		{ font-size: 25px; }
+h1 		{ font-size: 31px; }
 
 /* Medium and up */
 @media screen and (min-width: 40em) {
 	#nav a.link,
 	a.btn,
 	p, 
-	h4 		{ font-size: 22px; } 
-	h3 		{ font-size: 29px; }
-	h2 		{ font-size: 38px; }
-	h1 		{ font-size: 49px; }
-	
-	h2.h-after-h { margin-top: 28,5x; }
+	h4 		{ font-size: 18px; } 
+	h3 		{ font-size: 22px; }
+	h2 		{ font-size: 27px; }
+	h1 		{ font-size: 33px; }
 }
 
 
-/* HELP */
-
-
-
-
-
-
-
-
-
-/* - - - - - - - */
-
-
-/* Small only */
-@media screen and (max-width: 39.9375em) {}
-
+/* PROJECTS */
 /* Medium and up */
-@media screen and (min-width: 40em) {
 
+.project h3	{ margin-top: 0.6em; }
+.project {margin-bottom: 2em;}
+.project .cell img {
+	width: 10em;
 }
 
-/* Medium only */
-@media screen and (min-width: 40em) and (max-width: 63.9375em) {}
 
-/* Large and up */
-@media screen and (min-width: 64em) {}
 
-/* Large only */
-@media screen and (min-width: 64em) and (max-width: 74.9375em) {}
+/* xSmall for 320px */
+@media screen and (max-width: 360px) {
+	.cell.project .shrink { width: 100%; }
+	.project h3	{ margin-top: 0em; }
+}
+
+/* more than 1200px */
+@media print, screen and (min-width: 75rem)
+{
+.grid-margin-x.large-up-2 > .cell.project {
+    width: calc(33% - 1.875rem);
+}
+.grid-padding-x.large-up-2 > .cell.project {
+    width: calc(33%);
+}
+
+
