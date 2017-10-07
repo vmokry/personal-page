@@ -86,7 +86,7 @@ h1 		{ font-size: 31px; }
 
 .project h3	{ margin-top: 0.6em; }
 .project {margin-bottom: 2em;}
-.project .btn {margin-bottom: 2px; margin-right: 2px;}
+.project .btn {margin: 2px; margin-left: 0;}
 .project .cell img {
 	width: 10em;
 }
