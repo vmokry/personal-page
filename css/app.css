@@ -7,7 +7,15 @@ body {
 .container {
 	
 }
-ffa200
+.intro .btn {
+	
+}
+.contact h2 { margin-bottom: 1em; }
+.contact img { 
+	width: 133px; 
+	border-radius: 100%;
+	margin-bottom: 1em;
+}
 
 /* COLORS */
 a.link {
@@ -46,6 +54,13 @@ a.btn:hover {
 	transition: all 0.15s ease;
 	color: black;
 }
+a.link {
+	color: #ffa200; 
+}
+a.link:hover {
+	transition: all 0.15s ease;
+	color: black;
+}
 h1, h2, h3, h4 { font-weight: 700; }
 h1.subtle, h2.subtle, h3.subtle, h4.subtle { font-weight: 400; }
 
@@ -68,10 +83,10 @@ h1 		{ font-size: 31px; }
 
 
 /* PROJECTS */
-/* Medium and up */
 
 .project h3	{ margin-top: 0.6em; }
 .project {margin-bottom: 2em;}
+.project .btn {margin-bottom: 2px; margin-right: 2px;}
 .project .cell img {
 	width: 10em;
 }
