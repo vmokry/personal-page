@@ -51,6 +51,23 @@ a.btn:active {
 	color:white;
 	background-color: #ffa200;
 }
+a.btn.square {
+	width: 5em;
+	height: 5em;
+	padding: 1.25em 0em;
+	margin: 1px;
+}
+a.btn.square i {
+	display: block;
+	width: 5em;
+	text-align: center;
+}
+
+a.btn.square span {
+	display: block;
+	width: 5em;
+	margin: 0;
+}
 a.link {
 	color: #ffa200; 
 }
