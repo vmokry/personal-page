@@ -10,12 +10,7 @@ body {
 .intro .btn {
 	
 }
-.contact h2 { margin-bottom: 1em; }
-.contact img { 
-	width: 133px; 
-	border-radius: 100%;
-	margin-bottom: 1em;
-}
+
 
 /* COLORS */
 a.link {
@@ -52,10 +47,8 @@ a.btn:active {
 	background-color: #ffa200;
 }
 a.btn.square {
-	width: 5em;
-	height: 5em;
 	padding: 1.25em 0em;
-	margin: 1px;
+	
 }
 a.btn.square i {
 	display: block;
@@ -99,14 +92,28 @@ h1 		{ font-size: 31px; }
 /* PROJECTS */
 
 .project h3	{ margin-top: 0.6em; }
-.project {margin-bottom: 2em;}
+.project {margin-bottom: 4em;}
 .project .btn {margin-right: 2px; margin-bottom: 2px;}
 .project .cell img {
 	width: 10em;
 }
 
-
-
+/* CONTACT */
+#contact h2 {  }
+#contact img { 
+	width: 133px; 
+	border-radius: 100%;
+	margin-bottom: 1em;
+}
+#contact .info {
+	text-align: left;
+	margin: auto; 
+	max-width:21em;
+}
+#contact .type {
+	display: inline-block;
+	width: 4.5em;
+}
 /* xSmall for 320px */
 @media screen and (max-width: 360px) {
 	.cell.project .shrink { width: 100%; }
