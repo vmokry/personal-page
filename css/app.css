@@ -47,19 +47,15 @@ a.btn:active {
 	background-color: #ffa200;
 }
 a.btn.square {
-	padding: 1.25em 0em;
-	
+	padding: 1.25em 0em 0em;
+	width: 4.5em;
+	height: 4.5em;
+	margin-bottom: .5em;
 }
 a.btn.square i {
-	display: block;
-	width: 5em;
 	text-align: center;
-}
+	margin-bottom: 0em;
 
-a.btn.square span {
-	display: block;
-	width: 5em;
-	margin: 0;
 }
 a.link {
 	color: #ffa200; 
@@ -91,15 +87,20 @@ h1 		{ font-size: 31px; }
 
 /* PROJECTS */
 
-.project h3	{ margin-top: 0.6em; }
+.project h3	{ margin-top: 0.5em; }
 .project {margin-bottom: 4em;}
 .project .btn {margin-right: 2px; margin-bottom: 2px;}
 .project .cell img {
 	width: 10em;
 }
+/* SOCIAL */
+#social h2 {  margin-bottom: 1em; }
+#social .cell.small-6 {
+	margin-bottom: 2em;
+}
 
 /* CONTACT */
-#contact h2 {  }
+#contact h2 {  margin-bottom: 1em; }
 #contact img { 
 	width: 133px; 
 	border-radius: 100%;
