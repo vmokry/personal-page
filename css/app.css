@@ -52,12 +52,12 @@ a.btn:active {
 	transition: all 0.3s ease;
 }
 a.btn.square {
-	padding: 1.25em 0em 0em;
+	padding: 0.7em 0em 0em;
 	width: 4.5em;
 	height: 4.5em;
 	margin-bottom: .5em;
 }
-a.btn.square i {
+a.btn.square x {
 	text-align: center;
 	margin-bottom: 0em;
 
