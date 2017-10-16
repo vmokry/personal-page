@@ -22,6 +22,7 @@ a.link {
 /* FONTS */
 .small-caps {	}
 h2.has-top-margin {margin-top: 2em;}
+h2.has-padding {padding-left: 1em; padding-right: 1em;}
  
 a, a.btn, p, h1, h2, h3, h4 { 
 	font-family: 'Roboto Condensed', sans-serif;	
@@ -73,20 +74,22 @@ h1, h2, h3, h4 { font-weight: 700; }
 h1.subtle, h2.subtle, h3.subtle, h4.subtle { font-weight: 400; }
 
 #nav a.link, a.btn, p,
-h4 		{ font-size: 16px; } 
-h3 		{ font-size: 20px; }
-h2 		{ font-size: 25px; }
-h1 		{ font-size: 31px; }
+h4 			{ font-size: 16px; } 
+h3 			{ font-size: 20px; }
+h2 			{ font-size: 25px; }
+h1 			{ font-size: 31px; }
+p.small { font-size: 13px; }
 
 /* Medium and up */
 @media screen and (min-width: 40em) {
 	#nav a.link,
 	a.btn,
 	p, 
-	h4 		{ font-size: 18px; } 
-	h3 		{ font-size: 22px; }
-	h2 		{ font-size: 27px; }
-	h1 		{ font-size: 33px; }
+	h4 			{ font-size: 18px; } 
+	h3 			{ font-size: 22px; }
+	h2 			{ font-size: 27px; }
+	h1 			{ font-size: 33px; }
+	p.small { font-size: 15px; }
 }
 
 
