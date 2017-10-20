@@ -58,11 +58,16 @@ a.btn.square {
 	height: 4.5em;
 	margin-bottom: .5em;
 }
-a.btn.square x {
-	text-align: center;
-	margin-bottom: 0em;
+a.btn.square i {
 
-}
+	}
+a.btn .out {
+	display: inline;
+	position: absolute;
+	top: -.4em;
+	right: -.4em;
+	z-index: 10;
+	}
 a.link {
 	color: #ffa200; 
 }
