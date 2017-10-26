@@ -10,7 +10,17 @@ body {
 .intro .btn {
 	
 }
-
+svg.logo {
+	margin: auto;
+	margin-bottom: .5em;
+}
+/* Medium and up */
+@media screen and (min-width: 40em) {
+	svg.logo {
+		width: 28px;
+		height: 25px;
+	}
+}
 
 /* COLORS */
 a.link {
