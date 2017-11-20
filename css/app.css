@@ -123,7 +123,7 @@ p.small { font-size: 13px; }
 }
 
 /* CONTACT */
-#contact h2 {  margin-bottom: 1em; }
+#contact h2 { margin: auto; margin-bottom: 1em; max-width: 16em;}
 #contact img { 
 	width: 133px; 
 	border-radius: 100%;
