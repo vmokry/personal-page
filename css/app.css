@@ -4,9 +4,6 @@ body {
 	padding-bottom: 6em;
 	background-color: #efebe1;
 }
-.container {
-	
-}
 .intro .btn {
 	
 }
@@ -24,14 +21,16 @@ svg.logo {
 
 /* COLORS */
 a.link {
-	color: #ffa200; 
+	color: #ffa200;
+	border-bottom: 1px rgba(255,162,0,.5) solid;
 }
-a.link {
-	color: #ffa200; 
+a.link:hover {
+	border-bottom: 1px rgba(0,0,0,.5) solid;
 }
 /* FONTS */
 .small-caps {	}
-h2.has-top-margin {margin-top: 2em;}
+.grid-container.has-top-margin {margin-top: 4em;}
+.grid-container.has-top-margin#talks {margin-top: 2em;} /* Disable 4+2em */
 h2.has-padding {padding-left: 1em; padding-right: 1em;}
  
 a, a.btn, p, h1, h2, h3, h4 { 
@@ -109,18 +108,17 @@ p.small { font-size: 13px; }
 
 
 /* PROJECTS */
-
 .project h3	{ margin-top: 0.5em; }
 .project {margin-bottom: 4em;}
 .project .btn {margin-right: 2px; margin-bottom: 2px;}
-.project .cell img {
-	width: 10em;
-}
+.project .cell img {width: 10em;}
+
 /* SOCIAL */
 #social h2 {  margin-bottom: 1em; }
-#social .cell.small-6 {
-	margin-bottom: 2em;
-}
+#social .cell.small-6 { margin-bottom: 2em; }
+
+/* TALKS */
+#talks h2 {margin-bottom: 1em;}
 
 /* CONTACT */
 #contact h2 { margin: auto; margin-bottom: 1em; max-width: 16em;}
