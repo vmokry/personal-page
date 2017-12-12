@@ -31,6 +31,7 @@ a.link:hover {
 .small-caps {	}
 .grid-container.has-top-margin {margin-top: 4em;}
 .grid-container.has-top-margin#talks {margin-top: 2em;} /* Disable 4+2em */
+h2.has-top-margin { margin-top: 2em;}
 h2.has-padding {padding-left: 1em; padding-right: 1em;}
  
 a, a.btn, p, h1, h2, h3, h4 { 
