@@ -120,6 +120,7 @@ p.small { font-size: 13px; }
 
 /* TALKS */
 #talks h2 {margin-bottom: 1em;}
+#talks p {margin-bottom: .5em;}
 
 /* CONTACT */
 #contact h2 { margin: auto; margin-bottom: 1em; max-width: 16em;}
@@ -127,15 +128,6 @@ p.small { font-size: 13px; }
 	width: 133px; 
 	border-radius: 100%;
 	margin-bottom: 1em;
-}
-#contact .info {
-	text-align: left;
-	margin: auto; 
-	max-width:21em;
-}
-#contact .type {
-	display: inline-block;
-	width: 4.5em;
 }
 /* xSmall for 320px */
 @media screen and (max-width: 360px) {
