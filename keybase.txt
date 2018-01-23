@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/vmokry
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://vmokry.com
+  * I am vmokry (https://keybase.io/vmokry) on keybase.
+  * I have a public key ASBkzd21g1viaXv-xR9WZPmmPO1xA_gZHVy8JiX4hHBHEgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012064cdddb5835be2697bfec51f5664f9a63ced7103f8191d5cbc2625f8847047120a",
+      "host": "keybase.io",
+      "kid": "012064cdddb5835be2697bfec51f5664f9a63ced7103f8191d5cbc2625f8847047120a",
+      "uid": "5a7288c50767aefd4dc56b0a71050519",
+      "username": "vmokry"
+    },
+    "merkle_root": {
+      "ctime": 1516687341,
+      "hash": "21277a4c109cb522c7a367efd46bfe7bba71112d81142cbbe4b642dd2cedeb009521818dd5b2ab7bfa11f44cf25efb1e30fcf777b1260779d6d5eca8bc1c360c",
+      "hash_meta": "ba7be5b8f03631f89a1e12d62f7cc51ab4ae4d27d980effd078c9ad69c00e4fd",
+      "seqno": 1961469
+    },
+    "service": {
+      "hostname": "vmokry.com",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.39"
+  },
+  "ctime": 1516687351,
+  "expire_in": 504576000,
+  "prev": "742c9a1c1975c1472a9678710eb793950556288fd9e54c1a8d02a642a9720594",
+  "seqno": 18,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgZM3dtYNb4ml7/sUfVmT5pjztcQP4GR1cvCYl+IRwRxIKp3BheWxvYWTFA0B7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwNjRjZGRkYjU4MzViZTI2OTdiZmVjNTFmNTY2NGY5YTYzY2VkNzEwM2Y4MTkxZDVjYmMyNjI1Zjg4NDcwNDcxMjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNjRjZGRkYjU4MzViZTI2OTdiZmVjNTFmNTY2NGY5YTYzY2VkNzEwM2Y4MTkxZDVjYmMyNjI1Zjg4NDcwNDcxMjBhIiwidWlkIjoiNWE3Mjg4YzUwNzY3YWVmZDRkYzU2YjBhNzEwNTA1MTkiLCJ1c2VybmFtZSI6InZtb2tyeSJ9LCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTUxNjY4NzM0MSwiaGFzaCI6IjIxMjc3YTRjMTA5Y2I1MjJjN2EzNjdlZmQ0NmJmZTdiYmE3MTExMmQ4MTE0MmNiYmU0YjY0MmRkMmNlZGViMDA5NTIxODE4ZGQ1YjJhYjdiZmExMWY0NGNmMjVlZmIxZTMwZmNmNzc3YjEyNjA3NzlkNmQ1ZWNhOGJjMWMzNjBjIiwiaGFzaF9tZXRhIjoiYmE3YmU1YjhmMDM2MzFmODlhMWUxMmQ2MmY3Y2M1MWFiNGFlNGQyN2Q5ODBlZmZkMDc4YzlhZDY5YzAwZTRmZCIsInNlcW5vIjoxOTYxNDY5fSwic2VydmljZSI6eyJob3N0bmFtZSI6InZtb2tyeS5jb20iLCJwcm90b2NvbCI6Imh0dHA6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjM5In0sImN0aW1lIjoxNTE2Njg3MzUxLCJleHBpcmVfaW4iOjUwNDU3NjAwMCwicHJldiI6Ijc0MmM5YTFjMTk3NWMxNDcyYTk2Nzg3MTBlYjc5Mzk1MDU1NjI4OGZkOWU1NGMxYThkMDJhNjQyYTk3MjA1OTQiLCJzZXFubyI6MTgsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAyobtUXtAZwqHAU9MB/8u/QsPAGB50RC1YqV39t8LGxjsklfy1k5pC8OISC9bTZ7zJ4nrCNXI7UkstwYYED5uCqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIATEsc8X6zwVuFG+6n6TCxyruy4hv3UfyrIuqIvWS/pio3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/vmokry
+
+==================================================================
