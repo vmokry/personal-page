@@ -4,7 +4,7 @@ https://keybase.io/vmokry
 
 I hereby claim:
 
-  * I am an admin of http://vmokry.com
+  * I am an admin of https://vmokry.com
   * I am vmokry (https://keybase.io/vmokry) on keybase.
   * I have a public key ASBkzd21g1viaXv-xR9WZPmmPO1xA_gZHVy8JiX4hHBHEgo
 
@@ -27,7 +27,7 @@ To do so, I am signing this object:
     },
     "service": {
       "hostname": "vmokry.com",
-      "protocol": "http:"
+      "protocol": "https:"
     },
     "type": "web_service_binding",
     "version": 1
