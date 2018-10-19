@@ -112,7 +112,23 @@ a.btn.square {
 	margin-bottom: .5em;
 }
 
-a.btn.square i {}
+a.btn.square h2 {
+	color: inherit;
+	margin-bottom: 0 !important;
+	margin-top: 0.25em;
+	padding-bottom: 0;
+	line-height: 1;
+}
+
+a.btn.square span {
+	position: relative;
+	top: 0.2em;
+}
+
+a.btn.square span.small {
+	font-size: 70%;
+	font-weight: 500;
+}
 
 a.btn .out {
 	display: inline;
@@ -220,6 +236,12 @@ p.small {
 #social .cell.small-6 {
 	margin-bottom: 2em;
 }
+
+.artstation {
+	fill: currentColor;
+}
+
+;
 
 /* TALKS */
 
