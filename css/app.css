@@ -168,7 +168,8 @@ h4.subtle {
 #nav a.link,
 a.btn,
 p,
-h4 {
+h4,
+#timer .tag {
 	font-size: 16px;
 }
 
@@ -194,7 +195,8 @@ p.small {
 	#nav a.link,
 	a.btn,
 	p,
-	h4 {
+	h4,
+	#timer .tag {
 		font-size: 18px;
 	}
 	h3 {
@@ -220,7 +222,7 @@ p.small {
 
 #timer .block {
 
-	font-size: 2em;
+	font-size: 1.8em;
 	display: inline-block;
 
 	text-align: right;
@@ -228,7 +230,6 @@ p.small {
 }
 
 #timer .tag {
-	font-size: 0.5em;
 	display: block;
 	text-align: right;
 	margin: 0 0 0 1em;
