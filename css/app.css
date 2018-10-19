@@ -207,14 +207,20 @@ p.small {
 	}
 }
 
-/* TIMER */
+/* CLOCKS */
+
+#timer {
+	height: 4em;
+}
+
 
 #timer .block {
 
 	font-size: 2em;
-	display: block;
-	float: left;
+	display: inline-block;
+
 	text-align: right;
+	min-width: 1.5em;
 }
 
 #timer .tag {
@@ -223,6 +229,7 @@ p.small {
 	text-align: right;
 	margin: 0 0 0 1em;
 	font-weight: 400;
+	margin-top: -.5em;
 }
 
 /* PROJECTS */
