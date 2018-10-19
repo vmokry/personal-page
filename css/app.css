@@ -211,7 +211,7 @@ p.small {
 
 #timer .block {
 
-	font-size: 1.5em;
+	font-size: 2em;
 	display: block;
 	float: left;
 	text-align: right;
@@ -222,6 +222,7 @@ p.small {
 	display: block;
 	text-align: right;
 	margin: 0 0 0 1em;
+	font-weight: 400;
 }
 
 /* PROJECTS */

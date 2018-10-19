@@ -25,6 +25,7 @@
 		gtag('js', new Date());
 
 		gtag('config', 'UA-1606726-22');
+
 	</script>
 
 
@@ -46,11 +47,12 @@
 		<div class="grid-x grid-padding-x">
 			<div class="medium-10 medium-offset-1 large-8 large-offset-2 cell">
 				<!-- Display the countdown timer in an element -->
-				<h2 id="timer"></h2>
+				<h2 id="timer">
+				</h2>
 
 				<script>
 					// Set the date we're counting down to
-					var countDownDate = new Date("Apr 20, 2020").getTime();
+					var countDownDate = new Date("Apr 20, 2020 15:00:00").getTime();
 
 					// Update the count down every 1 second
 					var x = setInterval(function() {
@@ -81,9 +83,10 @@
 						// If the count down is finished, write some text 
 						if (distance < 0) {
 							clearInterval(x);
-							document.getElementById("demo").innerHTML = "EXPIRED";
+							document.getElementById("timer").innerHTML = "EXPIRED";
 						}
 					}, 1000);
+
 				</script>
 			</div>
 		</div>
