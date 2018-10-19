@@ -207,6 +207,22 @@ p.small {
 	}
 }
 
+/* TIMER */
+
+#timer .block {
+
+	font-size: 1.5em;
+	display: block;
+	float: left;
+	text-align: right;
+}
+
+#timer .tag {
+	font-size: 0.5em;
+	display: block;
+	text-align: right;
+	margin: 0 0 0 1em;
+}
 
 /* PROJECTS */
 
