@@ -3,7 +3,8 @@
 body {
 	padding-top: 3em;
 	padding-bottom: 6em;
-	background-color: #efebe1;
+	/*background-color: #efebe1;*/
+	background-color: #eee;
 }
 
 .intro .btn {}
