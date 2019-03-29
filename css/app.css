@@ -51,14 +51,6 @@ a.link:hover {
 
 /* Disable 4+2em */
 
-h2.has-top-margin {
-	margin-top: 2em;
-}
-
-h2.has-top-margin-2x {
-	margin-top: 4em;
-}
-
 h2.has-padding {
 	padding-left: 1em;
 	padding-right: 1em;
@@ -80,7 +72,7 @@ h1,
 h2,
 h3,
 h4 {
-	color: rgba(0, 0, 0, .7);
+	color: rgba(0, 0, 0, .65);
 }
 
 p,
@@ -96,16 +88,18 @@ a.btn {
 	position: relative;
 	display: inline-block;
 	font-weight: 500;
-	padding: 0.5em .7em;
+	padding: 0.5em .5em;
 	color: #ffa200;
 	background-color: white;
 	border-radius: 4px;
+	box-shadow: 0px 1px 3px rgba(0, 0, 0, .1);
 }
 
 a.btn:hover {
 	transition: all 0.3s ease;
 	color: black;
 	position: relative;
+	box-shadow: 0px 2px 6px rgba(0, 0, 0, .2);
 }
 
 a.btn:active {
@@ -114,8 +108,13 @@ a.btn:active {
 	position: relative;
 	top: 2px;
 	transition: all 0.3s ease;
+	box-shadow: 0px 0px 2px rgba(0, 0, 0, 0);
 }
 
+a.btn.line {
+	line-height: 1;
+	padding: 0.4em .5em;
+}
 
 a.btn.square {
 	padding: 0.7em 0em 0em;
@@ -271,29 +270,41 @@ p.small {
 	width: 10em;
 }
 
-/* SOCIAL */
+/* MENTIONS */
 
-#social h2 {
+#mentions h2 {
+	margin-top: 2em;
 	margin-bottom: 1em;
 }
 
+#mentions p {
+	margin-bottom: .7em;
+	line-height: 1.3;
+}
+
+/* SOCIAL */
+
+#social h2 {
+	margin-bottom: 0em;
+}
+
 #social .block {
-	margin-bottom: 2em;
+	margin-top: 2em;
+}
+
+.tall-line {
+	line-height: 2em;
+}
+
+.tall-line a.btn {
+	margin-bottom: -.2em;
+	margin-top: -.2em;
 }
 
 
 
 ;
 
-/* TALKS */
-
-#talks h2 {
-	margin-bottom: 1em;
-}
-
-#talks p {
-	margin-bottom: .5em;
-}
 
 /* CONTACT */
 
