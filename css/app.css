@@ -116,11 +116,17 @@ a.btn:active {
 	transition: all 0.3s ease;
 }
 
+
 a.btn.square {
 	padding: 0.7em 0em 0em;
-	width: 4.5em;
+	width: 5.5em;
 	height: 4.5em;
-	margin-bottom: .5em;
+	margin-bottom: .2em;
+	text-align: center;
+}
+
+a.btn.square + p {
+	margin-top: .5em;
 }
 
 a.btn.square h2 {
@@ -133,6 +139,8 @@ a.btn.square h2 {
 
 a.btn.square span {
 	position: relative;
+	display: inline-block;
+	width: 4.5em;
 	top: 0.2em;
 }
 
@@ -269,13 +277,11 @@ p.small {
 	margin-bottom: 1em;
 }
 
-#social .cell.small-6 {
+#social .block {
 	margin-bottom: 2em;
 }
 
-.artstation {
-	fill: currentColor;
-}
+
 
 ;
 
