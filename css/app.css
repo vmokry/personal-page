@@ -62,8 +62,14 @@ p,
 h1,
 h2,
 h3,
-h4 {
-  font-family: 'Roboto Condensed', sans-serif;
+h4,
+h2.tagline {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+h1,
+h2 {
+  font-family: 'IBM Plex Serif', serif;
 }
 
 a,
@@ -73,9 +79,9 @@ h2,
 h3,
 h4 {
   color: rgba(0, 0, 0, .65);
+  line-height: 1.4;
 }
 
-p,
 a.btn {
   line-height: 1.2;
 }
@@ -158,6 +164,7 @@ a.btn .out {
 
 a.link {
   color: #ffa200;
+  font-weight: 500;
 }
 
 a.link:hover {
@@ -251,24 +258,8 @@ p.small {
   margin-top: -.5em;
 }
 
-/* PROJECTS */
 
-.project h3 {
-  margin-top: 0.5em;
-}
 
-.project {
-  margin-bottom: 4em;
-}
-
-.project .btn {
-  margin-right: 2px;
-  margin-bottom: 2px;
-}
-
-.project img {
-  width: 10em;
-}
 
 /* MENTIONS */
 
@@ -279,7 +270,7 @@ p.small {
 
 #mentions p {
   margin-bottom: .7em;
-  line-height: 1.3;
+
 }
 
 #mentions .label {
@@ -293,10 +284,24 @@ p.small {
   margin-bottom: -1em;
 }
 
+
+/* EXPERIENCE */
+
+#experience h2 {
+  margin-bottom: 0.5em;
+}
+
+/* PROJECTS */
+
+#projects h2 {
+  margin-bottom: 0.5em;
+}
+
+
 /* SOCIAL */
 
 #social h2 {
-  margin-bottom: -.5em;
+  margin-bottom: -.75em;
 }
 
 #social .block {
@@ -345,9 +350,6 @@ p.small {
 @media screen and (max-width: 360px) {
   .cell.project .shrink {
     width: 100%;
-  }
-  .project h3 {
-    margin-top: 0em;
   }
 }
 
