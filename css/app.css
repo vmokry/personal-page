@@ -39,6 +39,14 @@ a.link:hover {
 
 /* FONTS */
 
+abbr,
+abbr[title] {
+  text-decoration: none;
+  border-bottom: 1px dashed rgba(255, 162, 0, .5);
+}
+
+
+
 .small-caps {}
 
 .grid-container.has-top-margin {
