@@ -273,7 +273,7 @@ p.small {
 
 #mentions h2 {
   margin-top: 2em;
-  margin-bottom: .5em;
+  margin-bottom: 1em;
 }
 
 #mentions p {
@@ -296,7 +296,7 @@ p.small {
 /* EXPERIENCE */
 
 #experience h2 {
-  margin-bottom: 0.5em;
+  margin-bottom: 1em;
 }
 
 /* PROJECTS */
@@ -309,7 +309,7 @@ p.small {
 /* SOCIAL */
 
 #social h2 {
-  margin-bottom: -.75em;
+  margin-bottom: -.25em;
 }
 
 #social .block {
