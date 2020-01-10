@@ -15,7 +15,6 @@ body {
 
 .top-nav {
   display: block;
-  0background: #ccc;
 }
 
 .top-nav a.btn {
@@ -34,8 +33,6 @@ body {
 
 .logo-container {
   display: inline;
-
-
 }
 
 svg.logo {
@@ -151,9 +148,6 @@ a.btn {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, .1);
 }
 
-
-
-
 a.btn:hover {
   transition: all 0.3s ease;
   color: black;
@@ -161,8 +155,7 @@ a.btn:hover {
   box-shadow: 0px 2px 6px rgba(0, 0, 0, .2);
 }
 
-a.btn:active,
-  {
+a.btn:active {
   color: black;
   position: relative;
   top: 1px;
@@ -174,6 +167,7 @@ a.btn.active {
   color: black;
   position: relative;
   top: 1px;
+  transition: all 0.3s ease;
   box-shadow: 0px 0px 2px rgba(0, 0, 0, 0);
 }
 
