@@ -310,6 +310,13 @@ p.small {
   }
 }
 
+/* INTRO */
+
+p.small {
+  margin-top: 0.5em;
+}
+
+
 /* CLOCKS */
 
 #timer {
