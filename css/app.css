@@ -118,7 +118,14 @@ h4 {
   line-height: 1.4;
 }
 
+.new {
+  color: dodgerblue;
+
+}
+
+
 @media (prefers-color-scheme: dark) {
+
   a,
   p,
   h1,
@@ -127,6 +134,8 @@ h4 {
   h4 {
     color: rgba(255, 255, 255, .65);
   }
+
+  .new {}
 }
 
 a.btn {
@@ -161,6 +170,11 @@ a.btn:active {
   top: 1px;
   transition: all 0.3s ease;
   box-shadow: 0px 0px 2px rgba(0, 0, 0, 0);
+}
+
+a.btn.bold {
+  color: white;
+  background: #ffa200;
 }
 
 a.btn.active {
@@ -234,6 +248,7 @@ a.link:hover {
     background-color: #222;
     box-shadow: none;
   }
+
   a.btn:hover,
   a.btn.active {
     color: white;
@@ -296,15 +311,19 @@ p.small {
   #timer .tag {
     font-size: 18px;
   }
+
   h3 {
     font-size: 22px;
   }
+
   h2 {
     font-size: 27px;
   }
+
   h1 {
     font-size: 33px;
   }
+
   p.small {
     font-size: 15px;
   }
@@ -440,6 +459,7 @@ p.small {
   body {
     zoom: 1.3;
   }
+
   .grid-container {
     max-width: 1200px;
   }
