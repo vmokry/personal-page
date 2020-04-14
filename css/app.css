@@ -1,5 +1,4 @@
 /* GENERAL */
-
 body {
   padding-top: 1em;
   padding-bottom: 3em;
@@ -30,7 +29,6 @@ body {
   border-radius: 0 4px 4px 0;
 }
 
-
 .logo-container {
   display: inline;
 }
@@ -52,7 +50,6 @@ svg.logo {
 }
 
 /* Medium and up */
-
 @media screen and (min-width: 40em) {
   svg.logo {
     width: 28px;
@@ -62,18 +59,12 @@ svg.logo {
   }
 }
 
-
-
-
 /* FONTS */
-
 abbr,
 abbr[title] {
   text-decoration: none;
   border-bottom: 1px dashed rgba(255, 162, 0, .5);
 }
-
-
 
 .small-caps {}
 
@@ -86,7 +77,6 @@ abbr[title] {
 }
 
 /* Disable 4+2em */
-
 h2.has-padding {
   padding-left: 1em;
   padding-right: 1em;
@@ -120,9 +110,7 @@ h4 {
 
 .new {
   color: dodgerblue;
-
 }
-
 
 @media (prefers-color-scheme: dark) {
 
@@ -198,7 +186,7 @@ a.btn.square {
   text-align: center;
 }
 
-a.btn.square + p {
+a.btn.square+p {
   margin-top: .5em;
 }
 
@@ -242,7 +230,6 @@ a.link:hover {
   border-bottom: 1px rgba(0, 0, 0, .5) solid;
 }
 
-
 @media (prefers-color-scheme: dark) {
   a.btn {
     background-color: #222;
@@ -260,7 +247,6 @@ a.link:hover {
     color: white;
     border-bottom: 1px rgba(255, 255, 255, .5) solid;
   }
-
 }
 
 h1,
@@ -276,7 +262,6 @@ h3.subtle,
 h4.subtle {
   font-weight: 400;
 }
-
 
 a.btn,
 p,
@@ -302,7 +287,6 @@ p.small {
 }
 
 /* Medium and up */
-
 @media screen and (min-width: 40em) {
 
   a.btn,
@@ -330,24 +314,18 @@ p.small {
 }
 
 /* INTRO */
-
 p.small {
   margin-top: -0.5em;
 }
 
-
 /* CLOCKS */
-
 #timer {
   height: 4em;
 }
 
-
 #timer .block {
-
   font-size: 1.8em;
   display: inline-block;
-
   text-align: right;
   min-width: 1.5em;
 }
@@ -360,11 +338,7 @@ p.small {
   margin-top: -.5em;
 }
 
-
-
-
 /* MENTIONS */
-
 #mentions h2 {
   margin-top: 2em;
   margin-bottom: 1em;
@@ -372,7 +346,6 @@ p.small {
 
 #mentions p {
   margin-bottom: .7em;
-
 }
 
 #mentions .label {
@@ -386,22 +359,17 @@ p.small {
   margin-bottom: -1em;
 }
 
-
 /* EXPERIENCE */
-
 #experience h2 {
   margin-bottom: 1em;
 }
 
 /* PROJECTS */
-
 #projects h2 {
   margin-bottom: 0.5em;
 }
 
-
 /* SOCIAL */
-
 #social h2 {
   margin-bottom: -.25em;
 }
@@ -409,7 +377,6 @@ p.small {
 #social h3 {
   margin-bottom: .5em;
 }
-
 
 #social .block {
   margin-top: 2em;
@@ -424,13 +391,9 @@ p.small {
   margin-top: -.2em;
 }
 
-
-
 ;
 
-
 /* CONTACT */
-
 #contact h2 {
   margin: auto;
 }
@@ -452,9 +415,6 @@ p.small {
   width: 3.5em;
 }
 
-
-
-
 @media screen and (min-width: 1700px) {
   body {
     zoom: 1.3;
@@ -463,5 +423,4 @@ p.small {
   .grid-container {
     max-width: 1200px;
   }
-
 }
