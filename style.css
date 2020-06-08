@@ -1,0 +1,51 @@
+:root {
+    --main-color: #333;
+    --link-color: rgba(255, 160, 0, 1);
+    --hover-color: rgba(200, 130, 00, 1);
+    --active-color: #666
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul,
+small {
+    font-family: IBM Plex Sans, sans-serif;
+    color: var(--main-color);
+}
+
+
+a {
+    color: var(--link-color);
+}
+
+a:hover {
+    color: var(--hover-color);
+}
+
+details {
+    background-color: inherit;
+    padding: 0;
+    border: 0;
+}
+
+details summary {}
+
+details[open] {
+    margin-bottom: 2rem;
+
+}
+
+details[open] summary {
+    opacity: .5;
+}
+
+.portrait {
+    width: 6rem;
+    border-radius: 100%;
+}
