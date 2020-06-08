@@ -16,17 +16,13 @@ a,
 ul,
 small {
     font-family: IBM Plex Sans, sans-serif;
-    color: var(--main-color);
+
 }
 
 
-a {
-    color: var(--link-color);
-}
+a {}
 
-a:hover {
-    color: var(--hover-color);
-}
+a:hover {}
 
 details {
     background-color: inherit;
