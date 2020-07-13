@@ -19,6 +19,12 @@ small {
 
 }
 
+h1,
+h2,
+h3,
+h4 {
+    border-bottom: 0;
+}
 
 a {}
 
@@ -29,7 +35,7 @@ a:hover {}
 }
 
 span.smaller {
-    margin-left: 0.5em;
+    /*margin-left: 0.5em;*/
 }
 
 sup {
@@ -37,7 +43,7 @@ sup {
 }
 
 .has-margin {
-    margin-top: 3em;
+    margin-top: 2em;
 }
 
 header h4 {
