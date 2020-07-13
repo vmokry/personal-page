@@ -30,8 +30,9 @@ a {}
 
 a:hover {}
 
-.smaller {
+.info {
     font-size: 0.8em;
+    margin-left: 0.5em;
 }
 
 span.smaller {
@@ -42,7 +43,7 @@ sup {
     line-height: 0;
 }
 
-.has-margin {
+.separator {
     margin-top: 2em;
 }
 
@@ -57,4 +58,14 @@ header h4 {
     float: left;
     margin-right: 1em;
     border-radius: 100%;
+}
+
+.post h1 {
+    margin-top: 2em;
+}
+
+.post-info {
+    margin-top: 1em;
+    font-size: .8em;
+    margin-bottom: 2.5em;
 }
