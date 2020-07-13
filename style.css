@@ -24,24 +24,31 @@ a {}
 
 a:hover {}
 
-details {
-    background-color: inherit;
-    padding: 0;
-    border: 0;
+.smaller {
+    font-size: 0.8em;
 }
 
-details summary {}
-
-details[open] {
-    margin-bottom: 2rem;
-
+span.smaller {
+    margin-left: 0.5em;
 }
 
-details[open] summary {
-    opacity: .5;
+sup {
+    line-height: 0;
 }
+
+.has-margin {
+    margin-top: 3em;
+}
+
+header h4 {
+    font-weight: 400;
+    font-size: 1.0em;
+}
+
 
 .portrait {
-    width: 6rem;
+    width: 5em;
+    float: left;
+    margin-right: 1em;
     border-radius: 100%;
 }
