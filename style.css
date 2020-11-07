@@ -69,3 +69,7 @@ header h4 {
     font-size: .8em;
     margin-bottom: 2.5em;
 }
+
+.btn {
+  background-color: inherit;
+}
