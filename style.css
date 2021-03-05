@@ -35,10 +35,6 @@ a:hover {}
     margin-left: 0.5em;
 }
 
-span.smaller {
-    /*margin-left: 0.5em;*/
-}
-
 sup {
     line-height: 0;
 }
@@ -50,14 +46,17 @@ sup {
 header h4 {
     font-weight: 400;
     font-size: 1.0em;
+    padding-top: 0;
 }
 
-
 .portrait {
-    width: 5em;
+    width: 3.5em;
     float: left;
     margin-right: 1em;
+    margin-left: -0.2em;
     border-radius: 100%;
+    position: relative;
+    top: -0.4em;
 }
 
 .post h1 {
@@ -73,3 +72,21 @@ header h4 {
 .btn {
   background-color: inherit;
 }
+
+.smaller { font-size: 80%;}
+
+ul + .smaller {
+    margin-left: 2rem;
+}
+
+@media only screen and (min-width: 600px) {
+    body {
+      zoom: 1.2;
+    }
+  }
+  
+@media only screen and (min-width: 800px) {
+    body {
+      zoom: 1.4;
+    }
+  }
