@@ -75,8 +75,8 @@ header h4 {
 
 .smaller { font-size: 80%;}
 
-ul + .smaller {
-    margin-left: 2rem;
+.smaller.margin {
+     margin-left: 2rem; 
 }
 
 @media only screen and (min-width: 600px) {
