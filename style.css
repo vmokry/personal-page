@@ -81,12 +81,12 @@ header h4 {
 
 @media only screen and (min-width: 600px) {
     body {
-      zoom: 1.2;
+      font-size: 1.2rem;
     }
   }
   
 @media only screen and (min-width: 800px) {
     body {
-      zoom: 1.4;
+      font-size: 1.4rem;
     }
   }
