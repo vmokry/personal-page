@@ -79,14 +79,17 @@ header h4 {
      margin-left: 2rem; 
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 1000px) {
     body {
-      font-size: 1.2rem;
+        transform: scale(1.25, 1.25); /* Equal to scaleX(2) scaleY(0.5) */
+        transform-origin: center top;
+        
     }
   }
   
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 1200px) {
     body {
-      font-size: 1.4rem;
+        transform: scale(1.5, 1.5); /* Equal to scaleX(2) scaleY(0.5) */
+        transform-origin: center top;
     }
   }
