@@ -35,6 +35,7 @@ a.active {
 
 a.combo {
     text-decoration: none;
+    display: inline-block;
 }
 a.combo span {
     text-decoration: underline;
