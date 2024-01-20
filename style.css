@@ -1,10 +1,9 @@
 html {
-    -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
+    -webkit-text-size-adjust: 100%;
+    /* Prevent font scaling in landscape while allowing user zoom */
 }
 
-body {
-
-}
+body {}
 
 h1,
 h2,
@@ -41,6 +40,7 @@ a.combo {
     text-decoration: none;
     display: inline-block;
 }
+
 a.combo span {
     text-decoration: underline;
 }
@@ -66,12 +66,14 @@ header h4 {
     font-size: 1.0em;
     padding-top: 0;
 }
+
 nav {
     position: relative;
 }
+
 nav span {
     opacity: 0.25;
- 
+
 }
 
 .portrait {
@@ -93,6 +95,7 @@ nav span {
     font-size: .8em;
     margin-bottom: 2.5em;
 }
+
 .tag {
     font-size: 80%;
     background-color: grey;
@@ -104,24 +107,27 @@ nav span {
     top: -0.1em;
 }
 
-.btn, .btn:hover {
-  background-color: var(--nc-lk-1);
-  color: var(--nc-bg-1);
-  padding: 0.1em 0.4em;
-  text-decoration:  none;
-  border-radius: 0.2em;
-  font-weight: 600;
-  display: inline-block;
+.btn,
+.btn:hover {
+    background-color: var(--nc-lk-1);
+    color: var(--nc-bg-1);
+    padding: 0.1em 0.4em;
+    text-decoration: none;
+    border-radius: 0.2em;
+    font-weight: 600;
+    display: inline-block;
 }
 
 .btn:hover {
-    background-color: var(--nc-lk-2);  
+    background-color: var(--nc-lk-2);
 }
 
-.smaller { font-size: 80%;}
+.smaller {
+    font-size: 80%;
+}
 
 .smaller.margin {
-     margin-left: 2rem; 
+    margin-left: 2rem;
 }
 
 @media only screen and (max-width: 400px) {
@@ -129,22 +135,25 @@ nav span {
         padding-left: 1.5rem;
         padding-right: 1.5rem;
     }
+
     nav {
-      margin-right: -1rem;
+        margin-right: -1rem;
     }
-  }
+}
 
 @media only screen and (min-width: 1000px) {
     body {
-        transform: scale(1.25, 1.25); /* Equal to scaleX(2) scaleY(0.5) */
+        transform: scale(1.25, 1.25);
+        /* Equal to scaleX(2) scaleY(0.5) */
         transform-origin: center top;
-        
+
     }
-  }
-  
+}
+
 @media only screen and (min-width: 1200px) {
     body {
-        transform: scale(1.5, 1.5); /* Equal to scaleX(2) scaleY(0.5) */
+        transform: scale(1.5, 1.5);
+        /* Equal to scaleX(2) scaleY(0.5) */
         transform-origin: center top;
     }
-  }
+}
