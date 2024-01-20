@@ -2,6 +2,10 @@ html {
     -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape while allowing user zoom */
 }
 
+body {
+
+}
+
 h1,
 h2,
 h3,
@@ -61,19 +65,17 @@ header h4 {
     font-size: 1.0em;
     padding-top: 0;
 }
+
 nav span {
     opacity: 0.25;
-    margin-left: -0.15em;
-    margin-right: -0.15em;
+ 
 }
-header {
 
-}
 .portrait {
-    width: 2.7em;
+    width: 3em;
     float: left;
-    margin-right: .5em;
-    margin-left: -0.1em;
+    margin-right: .6em;
+    margin-left: -0.15em;
     border-radius: 100%;
     position: relative;
     //top: -0.3em;
@@ -118,6 +120,17 @@ header {
 .smaller.margin {
      margin-left: 2rem; 
 }
+
+@media only screen and (max-width: 400px) {
+    body {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    nav span {
+        margin-left: -0.1rem;
+        margin-right: -0.1rem;
+    }
+  }
 
 @media only screen and (min-width: 1000px) {
     body {
