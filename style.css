@@ -75,6 +75,9 @@ nav span {
     opacity: 0.25;
 
 }
+.disabled {
+    opacity: 0.5;
+}
 
 .portrait {
     width: 3em;
