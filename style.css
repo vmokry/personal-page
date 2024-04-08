@@ -78,6 +78,10 @@ nav span {
 .disabled {
     opacity: 0.125;
 }
+.disabled:hover {
+    opacity: 0.5;
+}
+
 
 .portrait {
     width: 3em;
