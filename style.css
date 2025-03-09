@@ -62,6 +62,10 @@ sup {
     margin-top: 2em;
 }
 
+abbr {
+	text-decoration: none;
+}
+
 
 
 header h4 {
