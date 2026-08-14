@@ -34,6 +34,12 @@ h5 {
 h4.lite {
     font-weight: 400;
 }
+.inline-block-combo * {
+    display: inline-block;
+}
+.inline-block-combo p {
+    margin-left: 0.5rem;
+}
 a:active {
     position: relative;
     top: 1px;
@@ -103,7 +109,6 @@ nav span {
     margin-left: -0.15em;
     border-radius: 100%;
     position: relative;
-    //top: -0.3em;
 }
 
 .post h1 {
