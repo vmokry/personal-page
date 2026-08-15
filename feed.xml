@@ -6,7 +6,14 @@
     <atom:link href="https://vmokry.com/feed.xml" rel="self" type="application/rss+xml" />
     <description>Blog posts, interviews and videos from Vladimir Mokry, Senior Concept Artist, Art Director &amp; Instructor.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 23 May 2026 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 15 Aug 2026 12:00:00 GMT</lastBuildDate>
+
+    <item>
+        <title>Four Hours at a Spiritual Festival</title>
+        <link>https://vmokry.com/healing-festival-2026.html</link>
+        <guid>https://vmokry.com/healing-festival-2026.html</guid>
+        <pubDate>Sat, 15 Aug 2026 12:00:00 GMT</pubDate>
+    </item>
 
     <item>
         <title>How I climbed hydrometeorological tower</title>
