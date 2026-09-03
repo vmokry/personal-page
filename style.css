@@ -3,7 +3,9 @@ html {
     /* Prevent font scaling in landscape while allowing user zoom */
 }
 
-body {}
+body {
+    /*font-size: 1rem;*/
+}
 
 h1,
 h2,
@@ -24,22 +26,27 @@ h2,
 h3,
 h4,
 h5 {
-    border-bottom: 0;
+    
     line-height: 1.25;
 }
-h5 {
-    line-height: 1.5;
-}
 
-h4.lite {
+
+.lite {
     font-weight: 400;
 }
+
 .inline-block-combo * {
     display: inline-block;
 }
+
 .inline-block-combo p {
     margin-left: 0.5rem;
 }
+.inline-block-combo h1 + p {
+    position: relative;
+    top: -1rem;
+}
+
 a:active {
     position: relative;
     top: 1px;
@@ -58,11 +65,16 @@ a.combo {
 a.combo span {
     text-decoration: underline;
 }
-
+a.combo .fa-external-link {
+    font-size: 0.6rem;
+    position: relative;
+    top: -0.3rem;
+}
 
 .info {
     font-size: 0.8em;
     margin-left: 0.5em;
+    opacity: 0.75;
 }
 
 sup {
@@ -74,15 +86,15 @@ sup {
 }
 
 abbr {
-	text-decoration: none;
+    text-decoration: none;
 }
 
 
-
-header h4 {
+header p {
     font-weight: 400;
     font-size: 1.0em;
-    padding-top: 0;
+    line-height: 1.25;
+    margin-bottom: .3rem;
 }
 
 nav {
@@ -93,6 +105,7 @@ nav span {
     opacity: 0.25;
 
 }
+
 .disabled {
     opacity: 0.25;
 }

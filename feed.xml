@@ -6,7 +6,14 @@
     <atom:link href="https://vmokry.com/feed.xml" rel="self" type="application/rss+xml" />
     <description>Blog posts, interviews and videos from Vladimir Mokry, Senior Concept Artist, Art Director &amp; Instructor.</description>
     <language>en</language>
-    <lastBuildDate>Sat, 15 Aug 2026 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 30 Aug 2026 12:00:00 GMT</lastBuildDate>
+
+    <item>
+        <title>Function First: Building Worlds That Work</title>
+        <link>https://www.strandedcat.com/interviews/vladimir-mokry-function-first-building-worlds-that-work/</link>
+        <guid>https://www.strandedcat.com/interviews/vladimir-mokry-function-first-building-worlds-that-work/</guid>
+        <pubDate>Sun, 30 Aug 2026 12:00:00 GMT</pubDate>
+    </item>
 
     <item>
         <title>A Few Hours at Healing Festival</title>
