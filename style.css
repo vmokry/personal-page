@@ -181,17 +181,14 @@ nav span {
 
 @media only screen and (min-width: 1000px) {
     body {
-        transform: scale(1.25, 1.25);
-        /* Equal to scaleX(2) scaleY(0.5) */
+        transform: scale(1.1, 1.1);
         transform-origin: center top;
-
     }
 }
 
 @media only screen and (min-width: 1200px) {
     body {
-        transform: scale(1.5, 1.5);
-        /* Equal to scaleX(2) scaleY(0.5) */
+        transform: scale(1.2, 1.2);
         transform-origin: center top;
     }
 }
