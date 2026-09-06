@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    /*font-size: 1rem;*/
+    font-size: 1rem;
 }
 
 h1,
@@ -28,23 +28,46 @@ h4,
 h5 {
     border-bottom: none;
     line-height: 1.25;
+    /*padding: 0;
+    margin-top: 1.25em;
+    margin-bottom: 0.5em;*/
+
 }
 
+hr {
+    padding: 0;
+    margin: 0;
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+
+}
 
 .lite {
     font-weight: 400;
 }
 
-.inline-block-combo * {
+.inline-block-combo {
+    /*margin-top: -1rem;
+    margin-bottom: -1rem;*/
+}
+
+.inline-block-combo h1,
+.inline-block-combo p {
     display: inline-block;
 }
 
 .inline-block-combo p {
     margin-left: 0.5rem;
 }
-.inline-block-combo h1 + p {
+
+.inline-block-combo h1+p {
     position: relative;
     top: -1rem;
+}
+
+.no-wrap {
+    white-space: nowrap;
 }
 
 a:active {
@@ -59,16 +82,22 @@ a.active {
 
 a.combo {
     text-decoration: none;
-    display: inline-block;
+
 }
 
 a.combo span {
     text-decoration: underline;
 }
+
 a.combo .fa-external-link {
     font-size: 0.6rem;
     position: relative;
     top: -0.3rem;
+    margin-right: 0.1rem;
+}
+
+p.smaller a.combo .fa-external-link {
+    top: -0.2rem;
 }
 
 .info {
@@ -79,10 +108,6 @@ a.combo .fa-external-link {
 
 sup {
     line-height: 0;
-}
-
-.separator {
-    margin-top: 2em;
 }
 
 abbr {
@@ -172,6 +197,11 @@ nav span {
     body {
         padding-left: 1.5rem;
         padding-right: 1.5rem;
+    }
+
+    header {
+        padding-top: 1.5rem;
+        padding-bottom: 1.5rem;
     }
 
     nav {
