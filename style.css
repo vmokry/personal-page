@@ -113,8 +113,9 @@ sup {
     line-height: 0;
 }
 
-abbr {
-    text-decoration: none;
+abbr[title] {
+    text-decoration: underline dashed;
+    text-underline-offset: 0.2em;
 }
 
 
