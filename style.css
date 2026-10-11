@@ -151,6 +151,7 @@ nav span {
     margin-left: -0.15em;
     border-radius: 100%;
     position: relative;
+    z-index: 1;
 }
 
 .post h1 {
