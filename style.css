@@ -106,7 +106,8 @@ p.smaller a.combo .fa-external-link {
 .info {
     font-size: 0.8em;
     margin-left: 0.5em;
-    opacity: 0.75;
+    /*opacity: 0.75;*/
+    color: grey;
 }
 
 sup {
