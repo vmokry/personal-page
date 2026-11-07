@@ -6,7 +6,21 @@
     <atom:link href="https://vmokry.com/feed.xml" rel="self" type="application/rss+xml" />
     <description>Blog posts, interviews and videos from Vladimir Mokry, Senior Concept Artist, Art Director &amp; Instructor.</description>
     <language>en</language>
-    <lastBuildDate>Sun, 06 Sep 2026 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 12:00:00 GMT</lastBuildDate>
+
+    <item>
+        <title>Lost in a Forest at Night</title>
+        <link>https://vmokry.com/storytelling-night-2026-10.html</link>
+        <guid>https://vmokry.com/storytelling-night-2026-10.html</guid>
+        <pubDate>Fri, 06 Nov 2026 12:00:00 GMT</pubDate>
+    </item>
+
+    <item>
+        <title>Why Game Sketches Act as Wireframes</title>
+        <link>https://open.spotify.com/episode/2IBORz8cPtx5wxlropXkr7</link>
+        <guid>https://open.spotify.com/episode/2IBORz8cPtx5wxlropXkr7</guid>
+        <pubDate>Tue, 27 Oct 2026 12:00:00 GMT</pubDate>
+    </item>
 
     <item>
         <title>Concept Art Resources</title>
