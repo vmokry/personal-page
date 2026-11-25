@@ -119,6 +119,60 @@ abbr[title] {
     text-underline-offset: 0.2em;
 }
 
+/* Tap tooltip for abbr on touch devices, see js/abbr-tooltip.js */
+@media (hover: none) {
+    abbr[title] {
+        cursor: pointer;
+        -webkit-tap-highlight-color: transparent;
+    }
+}
+
+.abbr-tip {
+    position: fixed;
+    z-index: 100;
+    max-width: min(18rem, calc(100vw - 16px));
+    padding: .4em .75em;
+    border-radius: 6px;
+    background: var(--nc-tx-2);
+    color: var(--nc-bg-1);
+    font-family: IBM Plex Sans, sans-serif;
+    font-size: .9rem;
+    line-height: 1.35;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, .2);
+    pointer-events: none;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(4px) scale(.96);
+    transition: opacity .15s, transform .15s, visibility .15s;
+}
+
+.abbr-tip.below {
+    transform: translateY(-4px) scale(.96);
+}
+
+.abbr-tip.visible {
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+}
+
+.abbr-tip::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: var(--arrow-x, 50%);
+    margin-left: -6px;
+    border: 6px solid transparent;
+    border-top-color: var(--nc-tx-2);
+}
+
+.abbr-tip.below::after {
+    top: auto;
+    bottom: 100%;
+    border-top-color: transparent;
+    border-bottom-color: var(--nc-tx-2);
+}
+
 
 header p {
     font-weight: 400;
